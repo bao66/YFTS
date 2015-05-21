@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre6">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/OpenSource/JarFiles/hibernate_annotation/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/OpenSource/JarFiles/hibernate_annotation/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/OpenSource/JarFiles/hibernate_annotation/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/OpenSource/JarFiles/hibernate_annotation/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="C:/OpenSource/JarFiles/hibernate_annotation/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/OpenSource/JarFiles/hibernate_annotation/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/OpenSource/JarFiles/hibernate_annotation/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/OpenSource/JarFiles/hibernate_annotation/javassist-3.9.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/OpenSource/JarFiles/hibernate_annotation/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/OpenSource/JarFiles/hibernate_annotation/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="C:/OpenSource/JarFiles/hibernate_annotation/slf4j-nop-1.5.8.jar"/>
+	<classpathentry kind="lib" path="C:/OpenSource/JarFiles/JDBC/Oracle/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/OpenSource/JarFiles/JPA/eclipselink.jar"/>
+	<classpathentry kind="lib" path="C:/OpenSource/JarFiles/JPA/javax.persistence_1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/OpenSource/JarFiles/JPA/javax.persistence_2.0.4.v201112161009.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
