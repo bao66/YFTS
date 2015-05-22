@@ -1,6 +1,6 @@
 //It is just for test beans
 
-package com.mercury.util;
+package com.mercury.utils;
 
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
