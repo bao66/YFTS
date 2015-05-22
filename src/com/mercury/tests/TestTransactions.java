@@ -16,7 +16,7 @@ public class TestTransactions {
 		SessionFactory factory = new AnnotationConfiguration().configure().buildSessionFactory();
 		Session session=factory.openSession(); 
 		Transaction tx=session.beginTransaction();
-		Transactions transactions=new Transactions("CongKai","GOO",1,240,"05-21-2013","GOO","CongKai",5.32,240*5.32);
+		Transactions transactions=new Transactions("CongKai","FB",1,50,"05-24-2013","FB","CongKai",2.31,50*2.31);
 		session.save(transactions);
 		tx.commit();
 
