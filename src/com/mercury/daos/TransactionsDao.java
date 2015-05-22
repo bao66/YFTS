@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.mercury.beans.Transactions;
 
-public interface TransactionDao {
+public interface TransactionsDao {
 	public void saveToCSV(Transactions transaction);
 	public void saveToDatabase(Transactions transaction);
 	public void deleteCSV();

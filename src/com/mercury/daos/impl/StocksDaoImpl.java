@@ -1,5 +1,5 @@
 package com.mercury.daos.impl;
 
-public class TraderDaoImpl {
+public class StocksDaoImpl {
 
 }

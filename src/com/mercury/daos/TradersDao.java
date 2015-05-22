@@ -2,10 +2,10 @@ package com.mercury.daos;
 
 import com.mercury.beans.Traders;
 
-public interface TraderDao {
+public interface TradersDao {
 	
 	public void save(Traders trader);
 	public void update(Traders trader);
 	public void delete(Traders trader);
-	public TraderDao findPersonByUsername(String username);
+	public TradersDao findPersonByUsername(String username);
 }
