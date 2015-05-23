@@ -24,5 +24,6 @@ public class TestTraders {
 		for (Traders t:list){
 			System.out.println(t);
 		}
+		session.close();
 	}
 }

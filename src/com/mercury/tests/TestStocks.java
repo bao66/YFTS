@@ -16,7 +16,7 @@ public class TestStocks {
 		SessionFactory factory = new AnnotationConfiguration().configure().buildSessionFactory();
 		Session session=factory.openSession();
 		Transaction tx=session.beginTransaction();
-		Stocks stocks=new Stocks("Apple",131);
+		Stocks stocks=new Stocks("FB",131);
 		session.save(stocks);
 		tx.commit();
 
@@ -27,6 +27,7 @@ public class TestStocks {
 		for (Stocks s:list){
 			System.out.println(s);
 		}
+		session.close();
 	}
 
 }

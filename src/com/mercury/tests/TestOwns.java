@@ -27,6 +27,7 @@ public class TestOwns {
 		for (Owns o:list){
 			System.out.println(o);
 		}
+		session.close();
 	}
 
 }
