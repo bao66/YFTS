@@ -31,4 +31,10 @@ public class TransactionsDaoImpl implements TransactionsDao {
 		return null;
 	}
 
+	@Override
+	public List<Transactions> queryAll() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
