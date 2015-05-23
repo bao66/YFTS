@@ -49,6 +49,7 @@ public class CsvRW {
 
 	public static void csvWrite(Transactions ts, String writePath) {
 		try {
+			if(ts != null){
 			FileWriter fw = new FileWriter(writePath, true);
 			String s = new String(ts.getUsername() + "," + ts.getCompanyName()
 					+ "," + String.valueOf(ts.getBuyOrSell()) + ","
@@ -59,6 +60,7 @@ public class CsvRW {
 					+ String.valueOf(ts.getTotalPrice()));
 			fw.write(s + "\n");
 			fw.close();
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
