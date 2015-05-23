@@ -17,7 +17,8 @@ public class TestTransactions {
 		SessionFactory factory = new AnnotationConfiguration().configure().buildSessionFactory();
 		Session session=factory.openSession(); 
 		Transaction tx=session.beginTransaction();
-		Transactions transactions=new Transactions("CongKai","FB",1,50,Calendar.getInstance().getTime().toString(),"FB","CongKai",2.31,50*2.31);
+		@SuppressWarnings("deprecation")
+		Transactions transactions=new Transactions("Yang","FB",1,50,Calendar.getInstance().getTime().toGMTString(),"FB","Yang",2.31,50*2.31);
 		session.save(transactions);
 		tx.commit();
 
